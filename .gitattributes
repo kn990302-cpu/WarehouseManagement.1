@@ -1,0 +1,15 @@
+# Chuẩn hóa xuống dòng để tránh conflict "giả" giữa các máy
+* text=auto
+
+*.cs     text diff=csharp
+*.xaml   text
+*.csproj text
+*.sln    text eol=crlf
+*.props  text
+*.json   text
+*.md     text
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.xlsx binary

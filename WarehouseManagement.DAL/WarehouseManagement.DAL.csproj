@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Nếu nhóm dùng .NET 8: đổi thành net8.0 (và đổi ở BLL, UI) -->
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>WarehouseManagement.DAL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" />
+  </ItemGroup>
+
+</Project>

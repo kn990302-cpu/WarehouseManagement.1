@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Nếu nhóm dùng .NET 8: đổi thành net8.0 -->
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>WarehouseManagement.BLL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" />
+    <PackageReference Include="ClosedXML" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WarehouseManagement.DAL\WarehouseManagement.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

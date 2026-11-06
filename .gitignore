@@ -1,0 +1,57 @@
+# ===== Visual Studio / .NET =====
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+*.pdb
+*.cache
+*.vspscc
+*.vssscc
+.vscode/
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+coverage*.json
+coverage*.xml
+
+# ===== Riêng dự án =====
+# Cấu hình kết nối riêng từng máy (VD: người dùng SQL Express thay vì LocalDB)
+appsettings.Local.json
+
+# File database đính kèm (nếu có)
+*.mdf
+*.ldf
+
+# File Excel xuất thử
+Exports/
+
+# Hệ điều hành
+Thumbs.db
+Desktop.ini
+.DS_Store

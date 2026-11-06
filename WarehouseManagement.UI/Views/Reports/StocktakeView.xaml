@@ -1,0 +1,19 @@
+<UserControl x:Class="WarehouseManagement.UI.Views.Reports.StocktakeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+    <!--
+        Người phụ trách: Trần Thái Anh
+        Đây là màn hình tạm. Hãy thay toàn bộ nội dung bên trong UserControl bằng giao diện của bạn.
+        KHÔNG đổi x:Class và tên file, vì menu bên trái đã gọi sẵn class này.
+    -->
+    <Grid Margin="24">
+        <materialDesign:Card Padding="24" VerticalAlignment="Top">
+            <StackPanel>
+                <TextBlock Text="Kiểm kê" FontSize="24" FontWeight="SemiBold" />
+                <TextBlock Margin="0,8,0,0" Opacity="0.7" Text="Phụ trách: Trần Thái Anh" />
+                <TextBlock Margin="0,16,0,0" TextWrapping="Wrap" Text="Cần làm: Lập phiếu kiểm kê, so sánh số lượng hệ thống với thực tế và điều chỉnh tồn kho." />
+            </StackPanel>
+        </materialDesign:Card>
+    </Grid>
+</UserControl>

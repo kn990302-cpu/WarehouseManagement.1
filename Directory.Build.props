@@ -1,0 +1,9 @@
+<Project>
+  <!-- Cấu hình chung cho cả 3 project. Không cần sửa file này. -->
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <Authors>Nhóm Quản lý kho</Authors>
+  </PropertyGroup>
+</Project>
